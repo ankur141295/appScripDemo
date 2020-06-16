@@ -1,10 +1,10 @@
 package com.appscrip.triviaapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.appscrip.triviaapp.databinding.ActivityMainBinding;
 import com.appscrip.triviaapp.questions.Question1Activity;
@@ -34,11 +34,4 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-//    @Override
-//    public void onBackPressed() {
-//        /*to avoid user to use android os back button to go back to previous page*/
-//
-////        super.onBackPressed();
-//    }
 }
